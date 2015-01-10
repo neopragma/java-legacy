@@ -53,11 +53,5 @@ Our sample solution ends up like this:
  */
 ```
 
-
-
-
-
-
-
 The next smell is that the main method is baked into the entity class. Let's see [what we can do about that](notes-main.md).
 
