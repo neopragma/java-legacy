@@ -1,0 +1,34 @@
+#!/bin/bash
+# Wrap execution of maven for unit and integration testing
+#
+# $1 low-order node of package name, e.g. 6 for 
+#    package com.neopragma.legacy.round6
+#
+# $2 class name pattern to include, e.g. *Test, *IT
+
+if [ "$#" == 0 ]
+then
+  echo "Usage:"
+  echo runtests round level
+  
+  echo Example 1:
+  echo runtests 4 unit
+  echo or
+  echo runtests 4
+  echo mvn -Dtest="com.neopragma.legacy.round4.*Test" test
+  
+  echo Example 2:
+  echo runtests 3 integration
+  echo mvn -Dtest="com.neopragma.legacy.round3.*IT" test
+  echo
+  exit 0
+fi  
+
+PATTERN="*Test"
+if [ "$#" > 1 ] && [ "$2" == "integration" ]
+then
+  PATTERN="*IT"
+fi  
+
+echo mvn -Dtest="com.neopragma.legacy.round$1.$PATTERN" test
+mvn -Dtest="com.neopragma.legacy.round$1.$PATTERN" test
