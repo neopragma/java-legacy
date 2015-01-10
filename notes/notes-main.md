@@ -17,7 +17,11 @@ Something interesting happens when we complete Step 3. The save method in JobApp
 
 Let's change the visibility to _package_ for the time being. We know this is an incremental refactoring step, and we will probably do something with the save method later. In the meantime, giving it _package_ visibility will keep the code in a working state.
 
+## Sample solution
+
 The sample solution is in package com.neopragma.legacy.round1.
+
+## Next smell
 
 The next smell is that the entity class JobApplicant contains code to interact with a network resource. That's a violation of _separation of concerns_ Let's [separate the two concerns](notes-external.md).
 

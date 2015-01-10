@@ -42,6 +42,8 @@ Use @see if it would help people to refer to the documentation for a related cla
 
 Use @deprecated if you don't want people to use the class because you intend to phase it out of the application.
 
+## Sample solution
+
 Our sample solution ends up like this:
 
 ```java
@@ -52,6 +54,8 @@ Our sample solution ends up like this:
  * @since 1.7
  */
 ```
+
+## Next smell
 
 The next smell is that the main method is baked into the entity class. Let's see [what we can do about that](notes-main.md).
 
