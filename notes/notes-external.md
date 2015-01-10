@@ -51,9 +51,9 @@ Here's what I did for the sample solution. I used the test-first approach to mod
 
 1. Added a private member to ```JobApplicantTest``` declaring an instance variable of type ```CityStateLookup```. That will be the name of the interface. References to objects of that type will be at the lowest level of abstraction that makes sense. In this case, we want to refer to the interface and not the specific concrete implementation classes.
 2. Added code in the ```@Before``` method to pass a reference to a ```CityStateLookup``` object to the constructor of ```JobApplicant.```
-3. Used Eclipse to _create interface CityStateClassImpl_ in ```src/main/java```. At this point the interface specified no methods.
+3. Used Eclipse to _create interface CityStateClass_ in ```src/main/java```. At this point the interface specified no methods.
 4. Used Eclipse to _create class CityStateClassImpl_ in ```src/main/java```. At this point the class was empty.
-5. Used Eclipse to _create JobApplicant constructor_ with the ```CityStateLookup``` argument. Eclipse generated a reference to ```CityStateLookupImpl```, so I manually changed it to ```CityStateLookup```.
+5. Used Eclipse to _create JobApplicant constructor_ with the ```CityStateLookup``` argument. Eclipse generated a reference to ```CityStateLookupImpl```, so I manually changed it to ```CityStateLookup```. Also added code to the constructor method to store the passed-in reference in an instance variable.
 6. Made the same change in ```Main``` as in ```JobApplicantTest``` to pass an instance of ```CityStateLookup``` to the constructor of ```JobApplicant```.
 7. At this point both ``JobApplicant``` and ```JobApplicantTest``` compiled, so I ran the automated checks. All passed.
 8. Because of the change to ```Main```, which is not covered by the automated unit checks, I manually checked it by choosing _Run as... Java application_. It still worked as before.
