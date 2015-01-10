@@ -1,6 +1,6 @@
 # Smell: JobApplicant class interacts with a network resource
 
-[Back to top](notes/notes.md) | [Next: Unit checks dependent on network resource](notes-isolation-1.md)
+[Back to top](notes/notes.md) | [Next: JobApplicant has multiple responsibilities](notes-srp-violation.md)
 
 The setZipCode method in the JobApplicant class contains hard-coded logic to access an Internet-based service to look up information based on a US zipcode. This creates a number of issues:
 
@@ -73,4 +73,4 @@ If that sounds like a lot of work, it is...and it isn't. When we are dealing wit
 
 ## Next smell
 
-The next smell is that the unit-level checks that call the city and state lookup method have a dependency on a network resource. Let's [isolate the code](notes-isolation-1.md) so that the unit checks will not be fragile, and so that the can run faster.
+
