@@ -42,7 +42,7 @@ Eventually it would be good to instantiate ```JobApplicant``` as a valid, immuta
 
 You might have noticed we violated our test-first process here. We've changed production code before the tests were failing for the right reason.
 
-We could have started with the ```SsnTest```, but it isn't the end of the world that we worked on ```Ssn``` first. In real life, people switch back and forth between test-first and test-after. It's no problem as long as you remember two things:
+We could have started with the ```SsnTest```, but it isn't the end of the world that we worked on ```Ssn``` first. In real life, people switch back and forth between test-first and test-after. It's no problem as long as you remember three things:
 
 1. Don't go too far with writing test cases without catching up the corresponding production code.
 2. Don't go too far with writing production code without catching up the corresponding test cases.
