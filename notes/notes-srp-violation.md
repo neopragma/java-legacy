@@ -1,6 +1,6 @@
 # Smell: JobApplicant class has multiple responsibilities
 
-[Back to top](notes/notes.md) | [Next: Unit checks dependent on remote resource](notes-isolation-1.md)
+[Back to top](notes/notes.md) | [Next: Extracting the Ssn class](notes-srp-violation-2.md)
 
 The ```JobApplicant``` class ostensibly represents the domain concept of "job applicant," but it contains code to manage the concepts of "address," "name," and "social security number," as well. 
 
@@ -102,7 +102,7 @@ Examining this code, we see that the only reason we need the ```CityState``` val
 
 Let's change the ```Address``` class so that it has _city_ and _state_ instance variables, and doesn't keep the ```CityState``` object.
 
-We can also move the logic from ```setZipCode``` into ```setAddress``` and get rid of the temporary ```CityState``` value object. We can also delete the ```setZipCode```, ```getCity```, and ```getState``` methods. ```JobApplicant``` is getting thinner!
+In ```JobApplicant``` we can move the logic from ```setZipCode``` into ```setAddress``` and get rid of the temporary ```CityState``` value object. We can also delete the ```setZipCode```, ```getCity```, and ```getState``` methods. ```JobApplicant``` is getting thinner!
 
 Now we have this:
 
@@ -180,12 +180,14 @@ public class AddressTest {
 }
 ```
 
+You can probably see several more improvements that could be made, but we'll save them for later. We still have two more responsibilities to extract from ```JobApplicant```.
 
-
-
+You might wonder why we're checking methods on ```JobApplicant``` when we're really looking at functionality in ```Address```. The reason is the ```Address``` class is a value object, and its instances are immutable. There's nothing interesting to validate. The interesting part is to validate that ```JobApplicant``` still functions properly after we've substituted the new ```Address``` class for the original implementation.
 
 ## Sample solution
 
-## Next smell
+The sample solution is in package ```com.neopragma.legacy.round3```.
 
-The next smell is that the unit-level checks that call the city and state lookup method have a dependency on a network resource. Let's [isolate the code](notes-isolation-1.md) so that the unit checks will not be fragile, and so that the can run faster.
+## Next step for this smell
+
+Next we'll [extract the logic pertaining to _social security number_](notes-srp-violation-2.md) from ```JobApplicant``` to reduce the number of responsibilities  in that class.
