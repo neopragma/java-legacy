@@ -1,4 +1,4 @@
-# Smell: JobApplicant class has multiple responsibilities
+# Smell: JobApplicant class has multiple responsibilities (part 1)
 
 [Back to top](notes/notes.md) | [Next: Extracting the Ssn class](notes-srp-violation-2.md)
 

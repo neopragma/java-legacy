@@ -40,7 +40,15 @@ But the rest of the code in class ```JobApplicant``` is not in good shape for us
 
 Eventually it would be good to instantiate ```JobApplicant``` as a valid, immutable object. We will have to sneak up on that goal step by step.
 
-Now our ```SsnTest``` class is broken. You might have noticed we violated our test-first process here. We've changed production code before the tests were failing for the right reason. They're failing, but it's because we trying to test social security number functionality through the ```JobApplicant``` class.
+You might have noticed we violated our test-first process here. We've changed production code before the tests were failing for the right reason.
+
+We could have started with the ```SsnTest```, but it isn't the end of the world that we worked on ```Ssn``` first. In real life, people switch back and forth between test-first and test-after. It's no problem as long as you remember two things:
+
+1. Don't go too far with writing test cases without catching up the corresponding production code.
+2. Don't go too far with writing production code without catching up the corresponding test cases.
+3. Always bookend your refactorings by running your automated checks (before and after). If you don't have any, or don't have enough automated checks, then do the same sort of checking manually, and consider adding any missing automated test cases as you go along.
+
+Now back to the work. Our ```SsnTest``` class is broken. We're trying to test social security number functionality through the ```JobApplicant``` class, and the compiler can't find the methods.
 
 But...isn't that what we just did, _on purpose_, for the ```Address``` class? Yes. Remember the reason: Instances of ```Address``` are immutable value objects. The interesting logic pertaining to _address_ resides in the ```Job Applicant``` class. 
 
@@ -77,7 +85,7 @@ We accomplish this by changing _this_ sort of code...
 	}
 ```
 
-After these changes, all our unit checks run clean.
+After these changes, all our unit checks run clean. (And yes, we could have done the test class first.)
 
 ## Checkpoint
 
@@ -87,6 +95,7 @@ We've extracted two out of four responsibilities from the ```JobApplicant``` cla
 2. The unit checks for ```Address``` actually validate functionality in ```JobApplicant```, as that is where the action happens and that is where the risk of bugs exists. The ```Address``` class is nothing but a data container...at least for now.
 3. In the case of ```Ssn```, the refactorings to extract the logic into a separate class were much simpler and we completed the task in a short time.
 4. The unit checks for ```Ssn``` called for a separate test class because ```Ssn``` is not just a data container, it's a full-fledged class that carries out logic. 
+5. It's becoming obvious that as we refactor this application we're generating more and more classes and interfaces. Might this make the application harder to maintain? Actually, it makes the application easier to maintain, because the purpose of each piece of code is easier to see. Each separate class or interface has a distinct purpose, and we can change the implementation of any one thing without breaking anything else.
 
 When we extract the _name_ functionality from ```JobApplicant```, we'll encounter still another wrinkle.
 
