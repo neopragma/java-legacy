@@ -1,6 +1,6 @@
 # Smell: Main method baked into entity class
 
-[Back to top](notes/notes.md) | [Next: JobApplicant has multiple responsibilities](notes-srp-violation.md)
+[Back to top](notes.md) | [Next: JobApplicant has multiple responsibilities](notes-srp-violation.md)
 
 Notice that the main method to drive the application is included in the JobApplicant class. The purpose of the JobApplicant class is to represent the domain concept of a "job applicant." Its purpose is not to interact with the end user. This is a violation of _separation of concerns_ and the _Single Responsibility Principle_ (SRP).
 

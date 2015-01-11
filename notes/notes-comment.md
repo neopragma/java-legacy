@@ -1,6 +1,6 @@
 # Smell: Worthless comment
 
-[Back to top](notes/notes.md) | [Next: Main method](notes-main.md)
+[Back to top](notes.md) | [Next: Main method](notes-main.md)
 
 A rule of thumb for using source comments effectively is that they should be minimal and useful. The class-level javadoc comments in class JobApplicant are certainly minimal. But are they useful? This is what we have:
 

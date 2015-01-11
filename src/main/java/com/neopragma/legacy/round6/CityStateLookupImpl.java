@@ -18,8 +18,6 @@ public class CityStateLookupImpl implements CityStateLookup {
 	
 	@Override
 	public CityState lookup(String zipCode) throws URISyntaxException, ClientProtocolException, IOException {
-		// Use a service to look up the city and state based on zip code.
-		// Save the returned city and state if content length is greater than zero.
 		URI uri = new URIBuilder()
             .setScheme("http")
             .setHost("www.zip-codes.com")
@@ -36,7 +34,6 @@ public class CityStateLookupImpl implements CityStateLookup {
         try {
             HttpEntity entity = response.getEntity();
             if (entity != null) {
-                long len = entity.getContentLength();
               	BufferedReader rd = new BufferedReader(
                         new InputStreamReader(response.getEntity().getContent()));
            		StringBuffer result = new StringBuffer();

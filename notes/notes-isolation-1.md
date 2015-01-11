@@ -1,6 +1,6 @@
 # Smell: Tight coupling with an external dependency
 
-[Back to top](notes/notes.md) | [Next: Obsolete comments mislead the reader](notes-bad-comments.md)
+[Back to top](notes.md) | [Next: Obsolete comments mislead the reader](notes-bad-comments.md)
 
 The ```CityStateLookup``` interface provides for _loose coupling_ between our application and the Internet-based lookup service we use to get the city and state for a given zip code. But we still have a problem: Every time the automated unit checks run, they reach out to the Internet. Our intent is not to test the remote service, but to verify that our own code handles the return values from the service correctly. We _do_ need to verify that all the pieces work together, but we _don't_ need to do that over and over again at the unit level.
 

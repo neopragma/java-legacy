@@ -1,6 +1,6 @@
 # Smell: JobApplicant class interacts with a network resource
 
-[Back to top](notes/notes.md) | [Next: JobApplicant has multiple responsibilities](notes-srp-violation.md)
+[Back to top](notes.md) | [Next: JobApplicant has multiple responsibilities](notes-srp-violation.md)
 
 The setZipCode method in the JobApplicant class contains hard-coded logic to access an Internet-based service to look up information based on a US zipcode. This creates a number of issues:
 

@@ -1,6 +1,6 @@
 # Smell: JobApplicant class has multiple responsibilities (part 2)
 
-[Back to top](notes/notes.md) | [Next: Extracting the Name class](notes-srp-violation-3.md)
+[Back to top](notes.md) | [Next: Extracting the Name class](notes-srp-violation-3.md)
 
 Now we're going to extract the logic pertaining to _social security number_ from the ```JobApplicant``` class, just as we did for _address_ logic.
 

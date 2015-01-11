@@ -1,6 +1,6 @@
 # Smell: JobApplicant class has multiple responsibilities (part 1)
 
-[Back to top](notes/notes.md) | [Next: Extracting the Ssn class](notes-srp-violation-2.md)
+[Back to top](notes.md) | [Next: Extracting the Ssn class](notes-srp-violation-2.md)
 
 The ```JobApplicant``` class ostensibly represents the domain concept of "job applicant," but it contains code to manage the concepts of "address," "name," and "social security number," as well. 
 

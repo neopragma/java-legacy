@@ -1,6 +1,6 @@
 # Smell: JobApplicant class has multiple responsibilities (part 3)
 
-[Back to top](notes/notes.md) | [Next: Poor code isolation](notes-isolation-1.md)
+[Back to top](notes.md) | [Next: Poor code isolation](notes-isolation-1.md)
 
 Now we're going to extract the logic pertaining to _name_ from the ```JobApplicant``` class.
 
