@@ -4,7 +4,7 @@
 
 We now have fast-running and reliable _unit checks_ for the ```Address``` class thanks to mocking the connection to the Internet-based lookup service. But we introduced a new problem when we mocked the service: Now we don't have an automated check to validate that our application interacts properly with the service.
 
-What we need is an _integration check_. The earlier version of ```AddressTest``` contained integration checks because it access the real Internet-based service. If we drop that same code into another test class, we'll have our integration checks. 
+What we need is an _integration check_. The earlier version of ```AddressTest``` contained integration checks because it accesses the real Internet-based service. If we drop that same code into another test class, we'll have our integration checks. 
 
 We don't want the integration checks to run every time we run our unit checks because they have longer run times and they might not work if we are not connected to the Internet, or the service is unavailable, or the response time is too long. Therefore, we need a way to run just the unit checks or just the integration checks.
 
