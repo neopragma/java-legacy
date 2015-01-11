@@ -1,6 +1,6 @@
 # Smell: Main method baked into entity class
 
-[Back to top](notes/notes.md) | [Next: Entity class accesses network resource](notes-external.md)
+[Back to top](notes/notes.md) | [Next: JobApplicant has multiple responsibilities](notes-srp-violation.md)
 
 Notice that the main method to drive the application is included in the JobApplicant class. The purpose of the JobApplicant class is to represent the domain concept of a "job applicant." Its purpose is not to interact with the end user. This is a violation of _separation of concerns_ and the _Single Responsibility Principle_ (SRP).
 
@@ -23,5 +23,5 @@ The sample solution is in package com.neopragma.legacy.round1.
 
 ## Next smell
 
-The next smell is that the entity class JobApplicant contains code to interact with a network resource. That's a violation of _separation of concerns_ Let's [separate the two concerns](notes-external.md).
+The next smell is that the entity class ```JobApplicant``` has multiple responsibilities. That's a violation of the _Single Responsibility Principle_ Let's [fix it](notes-srp-violation.md).
 
