@@ -7,7 +7,6 @@ import java.util.Scanner;
 public class Main {
 
 	public static void main(String[] args) throws URISyntaxException, IOException {
-		JobApplicant jobApplicant = new JobApplicant(new CityStateLookupImpl());
 		boolean done = false;
 		Scanner scanner = new Scanner(System.in);
 		String firstName = "";
@@ -32,10 +31,10 @@ public class Main {
 			System.out.println("SSN?");
             ssn = scanner.nextLine();			
 			System.out.println("Zip Code?");
-            zipCode = scanner.nextLine();			
+            zipCode = scanner.nextLine();	
+            JobApplicant jobApplicant = new JobApplicant(new Address(new CityStateLookupImpl(), zipCode));
             jobApplicant.setName(firstName, middleName, lastName);          
             jobApplicant.setSsn(ssn);
-            jobApplicant.setAddress(zipCode);
             jobApplicant.save();
 		}
 	}

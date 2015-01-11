@@ -8,7 +8,6 @@ Smell 2. Violation of Separation of Concerns: main method is baked directly into
 
 Smell 3: Violation of Separation of Concerns: Class JobApplicant contains code to access a web-based resource directly in method setZipCode. Network communication is not part of the _single responsibility_ of the JobApplicant</span> class. (See [notes](notes-external.md))
 
-
 Smell 4: Violation of Single Responsibility Principle (SRP): Class JobApplicant apparently represents the domain concept "Job Applicant," but contains functionality to deal with names, addresses, and Social Security Numbers. (See [notes](notes-srp-violation.md))
 
 Smell 5: Poor code isolation: Checks for zipcode functionality are dependent on a web-based resource. (See [notes](notes-isolation-1.md))

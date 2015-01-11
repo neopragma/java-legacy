@@ -116,7 +116,9 @@ Now we have this:
 
 We've been tweaking the code a fair bit, so this might be a good time to run all the unit checks just to be on the safe side. 
 
-So, we're done, right? Wrong. 
+It doesn't seem as if ```JobApplicant``` should be responsible for instantiating an ```Address``` object. Let's move that into the constructor of the ```Address``` class. 
+
+After moving the code, our unit checks should still pass. 
 
 Probably the most basic code smell is _duplication_. We also know we ought to keep our test code just as clean as our production code, or else it will become hard to understand and people will stop using it. There's duplication in the ```AddressTest``` class:
 

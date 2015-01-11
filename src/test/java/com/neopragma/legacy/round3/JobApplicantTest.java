@@ -2,6 +2,10 @@ package com.neopragma.legacy.round3;
 
 import static org.junit.Assert.assertEquals;
 
+import java.io.IOException;
+import java.net.URISyntaxException;
+
+import org.apache.http.client.ClientProtocolException;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -18,10 +22,10 @@ import org.junit.Test;
 public class JobApplicantTest {
 	
 	private JobApplicant jobApplicant;
+	
 	@Before
-
-	public void beforeEach() {
-		jobApplicant = new JobApplicant(new CityStateLookupImpl());
+	public void beforeEachTestCase() throws ClientProtocolException, URISyntaxException, IOException {
+		jobApplicant = new JobApplicant(new Address(new CityStateLookupImpl(), "12345"));
 	}
 	
 	@Test

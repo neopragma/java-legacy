@@ -1,7 +1,5 @@
 package com.neopragma.legacy.round3;
 
-import java.io.IOException;
-import java.net.URISyntaxException;
 
 /**
  * This class represents the domain concept of a job applicant. 
@@ -17,8 +15,8 @@ public class JobApplicant {
 	private CityStateLookup cityStateLookup;
 	private Address address;
 	
-	public JobApplicant(CityStateLookup cityStateLookup) {
-		this.cityStateLookup = cityStateLookup;
+	public JobApplicant(Address address) {
+		this.address = address;
 	}
 
 	public void setName(String firstName, String middleName, String lastName) {
@@ -106,22 +104,16 @@ public class JobApplicant {
 			       String middleName,
 			       String lastName,
 			       String ssn,
-			       String zipCode) throws URISyntaxException, IOException {
+			       Address address) {
 		setName(firstName, middleName, lastName);
 		setSsn(ssn);
-		setAddress(zipCode);
+		this.address = address;
 		save();
 	}
 	
 	void save() {
 		//TODO save information to a database
 		System.out.println("Saving to database: " + formatLastNameFirst());
-	}
-
-	public void setAddress(String zipCode) throws URISyntaxException, IOException {
-		CityState cityState = cityStateLookup.lookup(zipCode);
-		address = new Address(zipCode, cityState.getCity(), cityState.getState());
-		cityState = null;
 	}
 
 	public Address getAddress() {

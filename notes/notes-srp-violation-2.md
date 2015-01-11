@@ -23,23 +23,6 @@ That didn't result in many problems in the production code, although it confused
 	}
 ```
 
-Instead of setting the social security number as a String instance variable, we need to pass in an instance of ```Ssn``` as a constructor argument. That instance will already contain a valid social security number. 
-
-But the rest of the code in class ```JobApplicant``` is not in good shape for us to introduce that functionality. As an interim step, we instantiate ```Ssn``` in the ```add``` method of ```JobApplicant```. 
-
-```java
-	public void setSsn(String ssn) {
-		this.ssn = new Ssn(ssn);
-	}
-	
-	public Ssn getSsn() {
-		return ssn;
-	}
-
-```
-
-Eventually it would be good to instantiate ```JobApplicant``` as a valid, immutable object. We will have to sneak up on that goal step by step.
-
 You might have noticed we violated our test-first process here. We've changed production code before the tests were failing for the right reason.
 
 We could have started with the ```SsnTest```, but it isn't the end of the world that we worked on ```Ssn``` first. In real life, people switch back and forth between test-first and test-after. It's no problem as long as you remember three things:

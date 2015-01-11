@@ -6,17 +6,9 @@ import static org.junit.Assert.fail;
 import java.io.IOException;
 import java.net.URISyntaxException;
 
-import org.junit.Before;
 import org.junit.Test;
 
 public class AddressTest {
-	
-	private JobApplicant jobApplicant;
-	@Before
-
-	public void beforeEach() {
-		jobApplicant = new JobApplicant(new CityStateLookupImpl());
-	}	
 	
 	@Test
 	public void itFindsAddisonTexasBy5DigitZipCode() throws URISyntaxException, IOException {
@@ -29,11 +21,12 @@ public class AddressTest {
 	}
 	
 	private void assertAddressFor(String zipCode, String city, String state) {
+		Address address = null;
 		try {
-			jobApplicant.setAddress(zipCode);
-			assertEquals(city, jobApplicant.getAddress().getCity());
-			assertEquals(state, jobApplicant.getAddress().getState());
-			assertEquals(zipCode, jobApplicant.getAddress().getZipCode());
+			address = new Address(new CityStateLookupImpl(), zipCode);
+			assertEquals(city, address.getCity());
+			assertEquals(state, address.getState());
+			assertEquals(zipCode, address.getZipCode());
 		} catch(AssertionError nope) {
 			fail("Expected: zipCode <" + zipCode + ">, city <" + city + ">, state <" + state +
 					" Actual: zipCode <" + zipCode + ">, city <" + city + ">, state <" + state);

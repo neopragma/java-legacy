@@ -1,4 +1,4 @@
-package com.neopragma.legacy.round4;
+package com.neopragma.legacy.round5;
 
 import java.io.IOException;
 import java.net.URISyntaxException;
@@ -34,8 +34,8 @@ public class Main {
             zipCode = scanner.nextLine();	
             JobApplicant jobApplicant = new JobApplicant(
             		new Address(new CityStateLookupImpl(), zipCode), 
-            		new Ssn(ssn));
-            jobApplicant.setName(firstName, middleName, lastName);          
+            		new Ssn(ssn),
+            		new Name(firstName, middleName, lastName));
             jobApplicant.save();
 		}
 	}
