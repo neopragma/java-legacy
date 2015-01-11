@@ -1,4 +1,4 @@
-# Smell: Integration checks
+# Smell: SRP violation - JobApplicant contains persistence logic
 
 [Back to top](notes.md) | [Next: Law of Demeter - checked exceptions](notes-checked-exceptions.md)
 
@@ -60,6 +60,7 @@ Your reasoning may differ, but in the sample solution we:
 - Created runtime exception ```InvalidSsnException``` and changed ```SsnImpl``` to throw the exception instead of returning integer return codes.
 - Changed ```Main``` so it uses the ```Persistence``` class to save the job applicant information.
 
+Those changes go far beyond just pulling the persistence logic out of the ```JobApplicant``` class. There was quite a bit of refactoring and general clean-up in this step. 
 
 ## Sample solution
 
