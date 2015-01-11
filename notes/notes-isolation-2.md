@@ -1,4 +1,4 @@
-# Smell: Bad comments
+# Smell: Integration checks
 
 [Back to top](notes.md) | [Next: Separation of concerns - persistence](notes-persistence.md)
 
