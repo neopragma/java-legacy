@@ -1,4 +1,4 @@
-# Smell: SRP violation - JobApplicant contains persistence logic
+# Smell: SRP violation - JobApplication contains persistence logic
 
 [Back to top](notes.md) | [Next: Law of Demeter - checked exceptions](notes-checked-exceptions.md)
 
