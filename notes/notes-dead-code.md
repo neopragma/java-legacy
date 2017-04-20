@@ -1,4 +1,4 @@
-# Smell: Bad comments
+# Smell: Dead code
 
 [Back to top](notes.md) | [Next: Integration tests](notes-isolation-2.md)
 
