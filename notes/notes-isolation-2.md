@@ -1,4 +1,4 @@
-# Smell: Integration checks
+# Smell: Integration checks masquerading as unit checks
 
 [Back to top](notes.md) | [Next: Separation of concerns - persistence](notes-persistence.md)
 
