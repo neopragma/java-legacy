@@ -18,8 +18,6 @@ While we aren't supposed to make guesses about future requirements, we _are_ exp
 
 If we take a test-first approach, the first thing we will consider is whether our unit checks are organized in a way that makes sense for the breakdown of functionality in the application. As we are about to extract _address_ functionality from ```JobApplicant```, we probably don't want the unit checks for street address processing to remain in the ```JobApplicantTest``` class. It makes more sense to house them in a separate class. 
 
-If we take a traditional approach, we might want to make a note to ourselves as a reminder to revisit the structure of the unit checks when we are ready to modify them. Otherwise, we'll probably just leave everything as it is as soon as we get to green, because we'll be busy with other work by then.
-
 We create a new class in the ```src/test/java``` tree named ```AddressTest``` and move the relevant unit checks into it from ```JobApplicantTest```.
 
 ```java
