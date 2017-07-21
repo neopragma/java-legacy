@@ -38,7 +38,7 @@ Normally, the @version tag would match your source code version control system. 
 
 Use @see if it would help people to refer to the documentation for a related class or package.
 
-@since denotes the earlist release of Java for which the code is known to work. It's generally helpful to include this.
+@since denotes the earliest release of Java for which the code is known to work. It's generally helpful to include this.
 
 Use @deprecated if you don't want people to use the class because you intend to phase it out of the application.
 
