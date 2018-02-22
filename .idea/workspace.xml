@@ -1,51 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6932bd72-f40e-4484-8269-0f122efb8b3b" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_all_1_3.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_all_1_8_4.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/legacy.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/notes/notes-api-documentation.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/notes/notes-magic-numbers.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round9/Address.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round9/AddressImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round9/CityState.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round9/CityStateLookup.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round9/CityStateLookupException.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round9/CityStateLookupImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round9/Constants.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round9/InvalidSsnException.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round9/JobApplicant.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round9/JobApplicantImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round9/Main.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round9/Name.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round9/NameImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round9/NullAddress.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round9/NullJobApplicant.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round9/NullName.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round9/NullSsn.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round9/Persistence.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round9/PersistenceImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round9/Ssn.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round9/SsnImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round9/package-info.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/neopragma/legacy/round9/AddressIT.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/neopragma/legacy/round9/AddressTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/neopragma/legacy/round9/JobApplicantTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/neopragma/legacy/round9/NameTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/neopragma/legacy/round9/SsnTest.java" />
-      <change beforePath="$PROJECT_DIR$/notes/notes-checked-exceptions.md" afterPath="$PROJECT_DIR$/notes/notes-checked-exceptions.md" />
-      <change beforePath="$PROJECT_DIR$/notes/notes.md" afterPath="$PROJECT_DIR$/notes/notes.md" />
-    </list>
+    <list default="true" id="6932bd72-f40e-4484-8269-0f122efb8b3b" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -596,7 +552,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1519311009133</updated>
-      <workItem from="1519311013356" duration="7778000" />
+      <workItem from="1519311013356" duration="7832000" />
     </task>
     <servers />
   </component>
@@ -633,7 +589,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7778000" />
+    <option name="totallyTimeSpent" value="7832000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="710" extended-state="0" />
