@@ -18,13 +18,13 @@
         <entry file="file://$PROJECT_DIR$/notes/notes-checked-exceptions.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="376">
-                <caret line="67" column="62" lean-forward="false" selection-start-line="67" selection-start-column="62" selection-end-line="67" selection-end-column="62" />
+              <first_editor relative-caret-position="38">
+                <caret line="2" column="36" lean-forward="false" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
                 <folding>
-                  <marker date="1519319470143" expanded="true" signature="1810:1815" ph=" { " />
-                  <marker date="1519319470143" expanded="true" signature="1856:1859" ph=" }" />
-                  <marker date="1519319470143" expanded="true" signature="1901:1906" ph=" { " />
-                  <marker date="1519319470143" expanded="true" signature="1930:1933" ph=" }" />
+                  <marker date="1519319557354" expanded="true" signature="1813:1818" ph=" { " />
+                  <marker date="1519319557354" expanded="true" signature="1859:1862" ph=" }" />
+                  <marker date="1519319557354" expanded="true" signature="1904:1909" ph=" { " />
+                  <marker date="1519319557354" expanded="true" signature="1933:1936" ph=" }" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -557,7 +557,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1519311009133</updated>
-      <workItem from="1519311013356" duration="7922000" />
+      <workItem from="1519311013356" duration="7995000" />
     </task>
     <servers />
   </component>
@@ -594,7 +594,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7922000" />
+    <option name="totallyTimeSpent" value="7995000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="710" extended-state="0" />
@@ -840,13 +840,13 @@
     <entry file="file://$PROJECT_DIR$/notes/notes-checked-exceptions.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="376">
-            <caret line="67" column="62" lean-forward="false" selection-start-line="67" selection-start-column="62" selection-end-line="67" selection-end-column="62" />
+          <first_editor relative-caret-position="38">
+            <caret line="2" column="36" lean-forward="false" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
             <folding>
-              <marker date="1519319470143" expanded="true" signature="1810:1815" ph=" { " />
-              <marker date="1519319470143" expanded="true" signature="1856:1859" ph=" }" />
-              <marker date="1519319470143" expanded="true" signature="1901:1906" ph=" { " />
-              <marker date="1519319470143" expanded="true" signature="1930:1933" ph=" }" />
+              <marker date="1519319557354" expanded="true" signature="1813:1818" ph=" { " />
+              <marker date="1519319557354" expanded="true" signature="1859:1862" ph=" }" />
+              <marker date="1519319557354" expanded="true" signature="1904:1909" ph=" { " />
+              <marker date="1519319557354" expanded="true" signature="1933:1936" ph=" }" />
             </folding>
           </first_editor>
           <second_editor />

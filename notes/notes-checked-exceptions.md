@@ -1,6 +1,6 @@
 # Smell: Law of Demeter - client code must know about checked exceptions
 
-[Back to top](notes.md) | [Next: API documentation](notes-api-documentation.md)
+[Back to top](notes.md) | [Next: No API documentation](notes-api-documentation.md)
 
 Take a look at the declaration of the ```main``` method in class ```Main```:
 
@@ -65,4 +65,4 @@ The sample solution is in package ```com.neopragma.legacy.round8```.
 
 ## Next smell
 
-Let's get rid of [hard-coded literals](notes-api-documentation.md).
+Next smell: [No API documentation](notes-api-documentation.md).
