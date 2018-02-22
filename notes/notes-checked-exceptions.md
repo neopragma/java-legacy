@@ -1,6 +1,6 @@
 # Smell: Law of Demeter - client code must know about checked exceptions
 
-[Back to top](notes.md) | [Next: Hard-coded literals](notes-literals-1.md)
+[Back to top](notes.md) | [Next: API documentation](notes-api-doc.md)
 
 Take a look at the declaration of the ```main``` method in class ```Main```:
 
@@ -65,4 +65,4 @@ The sample solution is in package ```com.neopragma.legacy.round8```.
 
 ## Next smell
 
-Let's get rid of [hard-coded literals](notes-literals-1.md).
+Let's get rid of [hard-coded literals](notes-api-doc.md).
