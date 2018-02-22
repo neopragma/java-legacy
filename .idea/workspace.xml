@@ -2,40 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6932bd72-f40e-4484-8269-0f122efb8b3b" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/notes/notes-missing-case.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round10/Address.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round10/AddressImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round10/CityState.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round10/CityStateLookup.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round10/CityStateLookupException.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round10/CityStateLookupImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round10/Constants.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round10/InvalidSsnException.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round10/JobApplicant.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round10/JobApplicantImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round10/Main.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round10/Name.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round10/NameImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round10/NullAddress.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round10/NullJobApplicant.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round10/NullName.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round10/NullSsn.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round10/Persistence.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round10/PersistenceImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round10/Ssn.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round10/SsnImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round10/package-info.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/neopragma/legacy/round10/AddressIT.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/neopragma/legacy/round10/AddressTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/neopragma/legacy/round10/JobApplicantTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/neopragma/legacy/round10/NameTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/neopragma/legacy/round10/SsnTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/notes/notes-ugly-code-1.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round11/Address.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round11/AddressImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round11/CityState.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round11/CityStateLookup.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round11/CityStateLookupException.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round11/CityStateLookupImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round11/Constants.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round11/InvalidSsnException.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round11/JobApplicant.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round11/JobApplicantImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round11/Main.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round11/Name.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round11/NameImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round11/NullAddress.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round11/NullJobApplicant.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round11/NullName.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round11/NullSsn.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round11/Persistence.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round11/PersistenceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round11/Ssn.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round11/SsnImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round11/package-info.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/neopragma/legacy/round11/AddressIT.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/neopragma/legacy/round11/AddressTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/neopragma/legacy/round11/JobApplicantTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/neopragma/legacy/round11/NameTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/neopragma/legacy/round11/SsnTest.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/neopragma/legacy/round9/AddressIT.java" afterPath="$PROJECT_DIR$/src/test/java/com/neopragma/legacy/round9/AddressIT.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/neopragma/legacy/round9/AddressTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/neopragma/legacy/round9/AddressTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/neopragma/legacy/round9/JobApplicantTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/neopragma/legacy/round9/JobApplicantTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/neopragma/legacy/round9/NameTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/neopragma/legacy/round9/NameTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/neopragma/legacy/round9/SsnTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/neopragma/legacy/round9/SsnTest.java" />
+      <change beforePath="$PROJECT_DIR$/legacy.iml" afterPath="$PROJECT_DIR$/legacy.iml" />
+      <change beforePath="$PROJECT_DIR$/notes/notes.md" afterPath="$PROJECT_DIR$/notes/notes.md" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,14 +46,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SsnTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/neopragma/legacy/round9/SsnTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+      <file leaf-file-name="notes-ugly-code-1.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/notes/notes-ugly-code-1.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="91">
+                <caret line="105" column="69" lean-forward="false" selection-start-line="105" selection-start-column="69" selection-end-line="105" selection-end-column="69" />
+                <folding>
+                  <marker date="1519342667032" expanded="true" signature="1553:1829" ph="{&quot;post code&quot;: &quot;85658&quot;...}" />
+                  <marker date="1519342667032" expanded="true" signature="1656:1827" ph="[...]" />
+                  <marker date="1519342667032" expanded="true" signature="1662:1823" ph="{&quot;place name&quot;: &quot;Marana&quot;...}" />
+                  <marker date="1519342667032" expanded="true" signature="3637:3758" ph="..." />
+                </folding>
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -81,7 +86,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round9/Constants.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round9/NameImpl.java" />
         <option value="$PROJECT_DIR$/notes/notes-checked-exceptions.md" />
-        <option value="$PROJECT_DIR$/notes/notes.md" />
         <option value="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round10/NullSsn.java" />
         <option value="$PROJECT_DIR$/notes/notes-magic-numbers.md" />
         <option value="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round10/AddressImpl.java" />
@@ -97,6 +101,16 @@
         <option value="$PROJECT_DIR$/src/test/java/com/neopragma/legacy/round9/JobApplicantTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/neopragma/legacy/round9/NameTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/neopragma/legacy/round9/SsnTest.java" />
+        <option value="$PROJECT_DIR$/notes/notes.md" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round11/SsnImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/neopragma/legacy/round11/AddressIT.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/neopragma/legacy/round11/AddressTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/neopragma/legacy/round11/JobApplicantTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/neopragma/legacy/round11/NameTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/neopragma/legacy/round11/SsnTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round11/CityStateLookupImpl.java" />
+        <option value="$PROJECT_DIR$/notes/notes-ugly-code-1.md" />
       </list>
     </option>
   </component>
@@ -207,7 +221,16 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="legacy" type="462c0819:PsiDirectoryNode" />
-              <item name="round9" type="462c0819:PsiDirectoryNode" />
+              <item name="round10" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-legacy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-legacy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="legacy" type="462c0819:PsiDirectoryNode" />
+              <item name="round11" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java-legacy" type="b2602c69:ProjectViewProjectNode" />
@@ -237,7 +260,16 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="legacy" type="462c0819:PsiDirectoryNode" />
-              <item name="round9" type="462c0819:PsiDirectoryNode" />
+              <item name="round10" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-legacy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-legacy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="legacy" type="462c0819:PsiDirectoryNode" />
+              <item name="round11" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -257,11 +289,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/com/neopragma/legacy/round11" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round11" />
       <recent name="$PROJECT_DIR$/notes" />
       <recent name="$PROJECT_DIR$/src/test/java/com/neopragma/legacy/round10" />
       <recent name="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round10" />
-      <recent name="$PROJECT_DIR$/src/test/java/com/neopragma/legacy/round9" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round9" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -276,7 +308,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Round10 Tests">
+  <component name="RunManager" selected="JUnit.Round11 Tests">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -312,6 +344,31 @@
       <option name="MAIN_CLASS_NAME" value="com.neopragma.legacy.round10.AddressIT" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="AddressIT.itFindsMaranaArizonaBy9DigitZipCode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.neopragma.legacy.round11.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="legacy" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.neopragma.legacy.round11" />
+      <option name="MAIN_CLASS_NAME" value="com.neopragma.legacy.round11.AddressIT" />
+      <option name="METHOD_NAME" value="itFindsMaranaArizonaBy9DigitZipCode" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -411,6 +468,27 @@
       </option>
       <envs />
       <dir value="$PROJECT_DIR$/src/test/java/com/neopragma/legacy/round10" />
+      <patterns />
+    </configuration>
+    <configuration name="Round11 Tests" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="legacy" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="directory" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <dir value="$PROJECT_DIR$/src/test/java/com/neopragma/legacy/round11" />
       <patterns />
     </configuration>
     <configuration name="Round2 Tests" type="JUnit" factoryName="JUnit">
@@ -641,7 +719,7 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="13">
+    <list size="15">
       <item index="0" class="java.lang.String" itemvalue="JUnit.Round0 Tests" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.Round1 Tests" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.Round2 Tests" />
@@ -653,13 +731,16 @@
       <item index="8" class="java.lang.String" itemvalue="JUnit.Round8 Tests" />
       <item index="9" class="java.lang.String" itemvalue="JUnit.Round9 Tests" />
       <item index="10" class="java.lang.String" itemvalue="JUnit.Round10 Tests" />
-      <item index="11" class="java.lang.String" itemvalue="JUnit.AddressIT.itFindsNothing" />
-      <item index="12" class="java.lang.String" itemvalue="JUnit.AddressIT" />
+      <item index="11" class="java.lang.String" itemvalue="JUnit.Round11 Tests" />
+      <item index="12" class="java.lang.String" itemvalue="JUnit.AddressIT.itFindsNothing" />
+      <item index="13" class="java.lang.String" itemvalue="JUnit.AddressIT" />
+      <item index="14" class="java.lang.String" itemvalue="JUnit.AddressIT.itFindsMaranaArizonaBy9DigitZipCode" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.AddressIT" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.AddressIT.itFindsNothing" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.AddressIT.itFindsMaranaArizonaBy9DigitZipCode" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.AddressIT" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.AddressIT.itFindsNothing" />
       </list>
     </recent_temporary>
   </component>
@@ -681,44 +762,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1519311009133</updated>
-      <workItem from="1519311013356" duration="19406000" />
+      <workItem from="1519311013356" duration="24614000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AddressIT - 2018.02.22 at 16h 36m 30s.xml">
-      <configuration name="AddressIT" configurationId="JUnit" />
+    <history-entry file="AddressIT_itFindsMaranaArizonaBy9DigitZipCode - 2018.02.22 at 18h 06m 39s.xml">
+      <configuration name="AddressIT.itFindsMaranaArizonaBy9DigitZipCode" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddressIT - 2018.02.22 at 16h 36m 54s.xml">
-      <configuration name="AddressIT" configurationId="JUnit" />
+    <history-entry file="AddressIT_itFindsMaranaArizonaBy9DigitZipCode - 2018.02.22 at 18h 10m 46s.xml">
+      <configuration name="AddressIT.itFindsMaranaArizonaBy9DigitZipCode" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddressIT - 2018.02.22 at 16h 37m 30s.xml">
-      <configuration name="AddressIT" configurationId="JUnit" />
+    <history-entry file="AddressIT_itFindsMaranaArizonaBy9DigitZipCode - 2018.02.22 at 18h 25m 55s.xml">
+      <configuration name="AddressIT.itFindsMaranaArizonaBy9DigitZipCode" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddressIT - 2018.02.22 at 16h 37m 56s.xml">
-      <configuration name="AddressIT" configurationId="JUnit" />
+    <history-entry file="AddressIT_itFindsMaranaArizonaBy9DigitZipCode - 2018.02.22 at 18h 28m 24s.xml">
+      <configuration name="AddressIT.itFindsMaranaArizonaBy9DigitZipCode" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddressIT - 2018.02.22 at 16h 38m 10s.xml">
-      <configuration name="AddressIT" configurationId="JUnit" />
+    <history-entry file="AddressIT_itFindsMaranaArizonaBy9DigitZipCode - 2018.02.22 at 18h 29m 10s.xml">
+      <configuration name="AddressIT.itFindsMaranaArizonaBy9DigitZipCode" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Round10_Tests - 2018.02.22 at 16h 38m 26s.xml">
-      <configuration name="Round10 Tests" configurationId="JUnit" />
+    <history-entry file="AddressIT_itFindsMaranaArizonaBy9DigitZipCode - 2018.02.22 at 18h 29m 51s.xml">
+      <configuration name="AddressIT.itFindsMaranaArizonaBy9DigitZipCode" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Round10_Tests - 2018.02.22 at 16h 39m 20s.xml">
-      <configuration name="Round10 Tests" configurationId="JUnit" />
+    <history-entry file="AddressIT_itFindsMaranaArizonaBy9DigitZipCode - 2018.02.22 at 18h 31m 10s.xml">
+      <configuration name="AddressIT.itFindsMaranaArizonaBy9DigitZipCode" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Round10_Tests - 2018.02.22 at 16h 43m 30s.xml">
-      <configuration name="Round10 Tests" configurationId="JUnit" />
+    <history-entry file="AddressIT_itFindsMaranaArizonaBy9DigitZipCode - 2018.02.22 at 18h 33m 38s.xml">
+      <configuration name="AddressIT.itFindsMaranaArizonaBy9DigitZipCode" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Round10_Tests - 2018.02.22 at 16h 56m 27s.xml">
-      <configuration name="Round10 Tests" configurationId="JUnit" />
+    <history-entry file="Round11_Tests - 2018.02.22 at 18h 33m 58s.xml">
+      <configuration name="Round11 Tests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Round10_Tests - 2018.02.22 at 17h 05m 11s.xml">
-      <configuration name="Round10 Tests" configurationId="JUnit" />
+    <history-entry file="Round11_Tests - 2018.02.22 at 18h 37m 31s.xml">
+      <configuration name="Round11 Tests" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19406000" />
+    <option name="totallyTimeSpent" value="24614000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="710" extended-state="0" />
@@ -726,18 +807,18 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32994187" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18025078" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42163008" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32994187" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28046876" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15234375" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -873,125 +954,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/notes/notes-magic-numbers.md">
+    <entry file="file://$PROJECT_DIR$/notes/notes.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="19">
-            <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-            <folding>
-              <marker date="1519319197481" expanded="true" signature="1879:1991" ph="{...}" />
-            </folding>
+          <first_editor relative-caret-position="-43">
+            <caret line="28" column="67" lean-forward="false" selection-start-line="28" selection-start-column="67" selection-end-line="28" selection-end-column="67" />
+            <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round10/AddressImpl.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="35" lean-forward="false" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+        <state relative-caret-position="219">
+          <caret line="37" column="21" lean-forward="true" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round10/SsnImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/neopragma/legacy/round11/AddressIT.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="570">
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/neopragma/legacy/round10/AddressIT.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round11/CityStateLookupImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#342#343#0" expanded="true" />
-            <element signature="e#394#395#0" expanded="true" />
-            <element signature="e#490#491#0" expanded="true" />
-            <element signature="e#548#549#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round10/CityStateLookupImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="61" column="15" lean-forward="true" selection-start-line="61" selection-start-column="15" selection-end-line="61" selection-end-column="15" />
+        <state relative-caret-position="80">
+          <caret line="50" column="22" lean-forward="true" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/notes/notes-missing-case.md">
+    <entry file="file://$PROJECT_DIR$/notes/notes-ugly-code-1.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="190">
-            <caret line="4" column="318" lean-forward="false" selection-start-line="4" selection-start-column="318" selection-end-line="4" selection-end-column="318" />
+          <first_editor relative-caret-position="91">
+            <caret line="105" column="69" lean-forward="false" selection-start-line="105" selection-start-column="69" selection-end-line="105" selection-end-column="69" />
             <folding>
-              <marker date="1519337106153" expanded="true" signature="4561:4905" ph="/.../" />
+              <marker date="1519342667032" expanded="true" signature="1553:1829" ph="{&quot;post code&quot;: &quot;85658&quot;...}" />
+              <marker date="1519342667032" expanded="true" signature="1656:1827" ph="[...]" />
+              <marker date="1519342667032" expanded="true" signature="1662:1823" ph="{&quot;place name&quot;: &quot;Marana&quot;...}" />
+              <marker date="1519342667032" expanded="true" signature="3637:3758" ph="..." />
             </folding>
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round9/AddressImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/neopragma/legacy/round9/AddressIT.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/neopragma/legacy/round9/AddressTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/neopragma/legacy/round9/JobApplicantTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/neopragma/legacy/round9/NameTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/neopragma/legacy/round9/SsnTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

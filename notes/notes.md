@@ -26,7 +26,7 @@ Smell 11: Violation of Law of Demeter: Checked exceptions must be handled by cli
 
 Smell 12: No API documentation (javadoc comments). (See [notes](notes-api-documentation.md))
 
-Smell 13: Code contains magic numbers. (See [notes](notes-magic-nubers.md))
+Smell 13: Code contains magic numbers. (See [notes](notes-magic-numbers.md))
 
 Smell 14: Missing case: There is no check for the case when the supplied zipcode is not found in the lookup. (See [notes](notes-missing-case.md))
 
