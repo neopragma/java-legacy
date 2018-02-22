@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6932bd72-f40e-4484-8269-0f122efb8b3b" name="Default" comment="" />
+    <list default="true" id="6932bd72-f40e-4484-8269-0f122efb8b3b" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/notes/notes-checked-exceptions.md" afterPath="$PROJECT_DIR$/notes/notes-checked-exceptions.md" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,14 +14,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="notes-magic-numbers.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/notes/notes-magic-numbers.md">
+      <file leaf-file-name="notes-checked-exceptions.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/notes/notes-checked-exceptions.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="38">
-                <caret line="2" column="41" lean-forward="false" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+              <first_editor relative-caret-position="376">
+                <caret line="67" column="62" lean-forward="false" selection-start-line="67" selection-start-column="62" selection-end-line="67" selection-end-column="62" />
                 <folding>
-                  <marker date="1519319197481" expanded="true" signature="1879:1991" ph="{...}" />
+                  <marker date="1519319470143" expanded="true" signature="1810:1815" ph=" { " />
+                  <marker date="1519319470143" expanded="true" signature="1856:1859" ph=" }" />
+                  <marker date="1519319470143" expanded="true" signature="1901:1906" ph=" { " />
+                  <marker date="1519319470143" expanded="true" signature="1930:1933" ph=" }" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -44,7 +49,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round9/round8/CityStateLookupImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round9/CityState.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/neopragma/legacy/round9/AddressIT.java" />
-        <option value="$PROJECT_DIR$/notes/notes-checked-exceptions.md" />
         <option value="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round9/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round9/CityStateLookupImpl.java" />
         <option value="$PROJECT_DIR$/notes/notes-api-documentation.md" />
@@ -52,6 +56,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round9/Constants.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round9/NameImpl.java" />
         <option value="$PROJECT_DIR$/notes/notes-magic-numbers.md" />
+        <option value="$PROJECT_DIR$/notes/notes-checked-exceptions.md" />
       </list>
     </option>
   </component>
@@ -552,7 +557,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1519311009133</updated>
-      <workItem from="1519311013356" duration="7832000" />
+      <workItem from="1519311013356" duration="7922000" />
     </task>
     <servers />
   </component>
@@ -589,7 +594,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7832000" />
+    <option name="totallyTimeSpent" value="7922000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="710" extended-state="0" />
@@ -792,22 +797,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/notes/notes-checked-exceptions.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding>
-              <marker date="1519313449726" expanded="true" signature="1800:1805" ph=" { " />
-              <marker date="1519313449726" expanded="true" signature="1846:1849" ph=" }" />
-              <marker date="1519313449726" expanded="true" signature="1891:1896" ph=" { " />
-              <marker date="1519313449726" expanded="true" signature="1920:1923" ph=" }" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round9/Constants.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -842,6 +831,22 @@
             <caret line="2" column="41" lean-forward="false" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
             <folding>
               <marker date="1519319197481" expanded="true" signature="1879:1991" ph="{...}" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notes/notes-checked-exceptions.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="376">
+            <caret line="67" column="62" lean-forward="false" selection-start-line="67" selection-start-column="62" selection-end-line="67" selection-end-column="62" />
+            <folding>
+              <marker date="1519319470143" expanded="true" signature="1810:1815" ph=" { " />
+              <marker date="1519319470143" expanded="true" signature="1856:1859" ph=" }" />
+              <marker date="1519319470143" expanded="true" signature="1901:1906" ph=" { " />
+              <marker date="1519319470143" expanded="true" signature="1930:1933" ph=" }" />
             </folding>
           </first_editor>
           <second_editor />
