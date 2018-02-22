@@ -28,14 +28,14 @@ Smell 12: No API documentation (javadoc comments). (See [notes](notes-api-docume
 
 Smell 13: Code contains magic numbers. (See [notes](notes-magic-nubers.md))
 
-Smell 13: Missing case: There is no check for the case when the supplied zipcode is not found in the lookup. (See [notes](notes-missing-case.md))
+Smell 14: Missing case: There is no check for the case when the supplied zipcode is not found in the lookup. (See [notes](notes-missing-case.md))
 
-Smell 14: Crufty, undocumented, and non-self-describing code in method <span class="code">setZipCode</span> to interact with Apache HttpClient. (See [notes](notes-ugly-code-1.md))
+Smell 15: Crufty, undocumented, and non-self-describing code in method <span class="code">setZipCode</span> to interact with Apache HttpClient. (See [notes](notes-ugly-code-1.md))
 
-Smell 15: Class members not organized in any particular way. (See [notes](notes-organization.md))
+Smell 16: Class members not organized in any particular way. (See [notes](notes-organization.md))
 
-Smell 16: Poor separation of concerns: Class contains functionality to handle input validation as well as data formatting for output. (See [notes](notes-validation.md))
+Smell 17: Poor separation of concerns: Class contains functionality to handle input validation as well as data formatting for output. (See [notes](notes-validation.md))
 
-Smell 17: Repetitious code in methods setName and setSpanishName to avoid storing null values. (See [notes](notes-dry-1.md))
+Smell 18: Repetitious code in methods setName and setSpanishName to avoid storing null values. (See [notes](notes-dry-1.md))
 
-Smell 18: Clumsy way to jam support for Spanish names into the application (method setSpanishName) instead of using Java's support for Object Oriented design and internationalization. (See [notes](notes-internationalization.md))
+Smell 19: Clumsy way to jam support for Spanish names into the application (method setSpanishName) instead of using Java's support for Object Oriented design and internationalization. (See [notes](notes-internationalization.md))
