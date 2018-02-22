@@ -1,4 +1,4 @@
-# Smell: Worthless comment
+# Smell: Crufty code in city/state lookup
 
 [Back to top](notes.md) | [Next: Class members not organized](notes-organization.md)
 
