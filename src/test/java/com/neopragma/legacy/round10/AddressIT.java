@@ -1,4 +1,4 @@
-package com.neopragma.legacy.round9;
+package com.neopragma.legacy.round10;
 
 import org.junit.Test;
 
@@ -16,7 +16,12 @@ public class AddressIT {
 	public void itFindsMaranaArizonaBy9DigitZipCode() {
 		assertAddressFor("856585578", "Marana", "AZ");
 	}
-	
+
+	@Test(expected=CityStateLookupException.class)
+	public void itThrowsWhenZipCodeIsNotFound() {
+		new AddressImpl(new CityStateLookupImpl(), "99999");
+	}
+
 	private void assertAddressFor(String zipCode, String city, String state) {
 		Address address = null;
 		try {
@@ -26,7 +31,7 @@ public class AddressIT {
 			assertEquals(zipCode, address.getZipCode());
 		} catch(AssertionError nope) {
 			fail("Expected: zipCode <" + zipCode + ">, city <" + city + ">, state <" + state +
-					" Actual: zipCode <" + zipCode + ">, city <" + city + ">, state <" + state);
+					" Actual: zipCode <" + address.getZipCode() + ">, city <" + address.getCity() + ">, state <" + address.getState());
 		} catch(Throwable unexpected) {
 			fail("Unexpected: " + unexpected);
 		}
