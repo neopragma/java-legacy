@@ -8,7 +8,7 @@ But we're in a better position to remediate this code now than we were at the st
 
 The core problem is that it's using a web page designed for human interaction as if it were a web service with a programmatic interface. Can we find a proper service that provides the same functionality?
 
-It turns out that a quick Internet search turns up several candidates. Let's say our team checks a few of these out and decides to use [Zippopotamus](http://www.zippopotam.us).
+A quick Internet search turns up several candidates. Let's say our team checks a few of these out and decides to use [Zippopotamus](http://www.zippopotam.us).
 
 Zippopotamus exposes a handful of RESTful URIs that support zip code lookups and city/state lookups. It doesn't take long to learn that this call will meet our needs:
 
@@ -98,8 +98,6 @@ try {
     }
 . . .    
 ```
-
-
 
 ## Sample solution
 

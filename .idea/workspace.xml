@@ -18,13 +18,13 @@
         <entry file="file://$PROJECT_DIR$/notes/notes-ugly-code-1.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="114">
-                <caret line="4" column="95" lean-forward="true" selection-start-line="4" selection-start-column="95" selection-end-line="4" selection-end-column="95" />
+              <first_editor relative-caret-position="194">
+                <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
                 <folding>
-                  <marker date="1519342743933" expanded="true" signature="1568:1844" ph="{&quot;post code&quot;: &quot;85658&quot;...}" />
-                  <marker date="1519342743933" expanded="true" signature="1671:1842" ph="[...]" />
-                  <marker date="1519342743933" expanded="true" signature="1677:1838" ph="{&quot;place name&quot;: &quot;Marana&quot;...}" />
-                  <marker date="1519342743933" expanded="true" signature="3652:3773" ph="..." />
+                  <marker date="1519345618446" expanded="true" signature="1550:1826" ph="{&quot;post code&quot;: &quot;85658&quot;...}" />
+                  <marker date="1519345618446" expanded="true" signature="1653:1824" ph="[...]" />
+                  <marker date="1519345618446" expanded="true" signature="1659:1820" ph="{&quot;place name&quot;: &quot;Marana&quot;...}" />
+                  <marker date="1519345618446" expanded="true" signature="3634:3755" ph="..." />
                 </folding>
               </first_editor>
               <second_editor />
@@ -730,7 +730,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1519311009133</updated>
-      <workItem from="1519311013356" duration="24689000" />
+      <workItem from="1519311013356" duration="25322000" />
     </task>
     <servers />
   </component>
@@ -767,7 +767,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24689000" />
+    <option name="totallyTimeSpent" value="25322000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="710" extended-state="0" />
@@ -786,7 +786,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32994187" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15234375" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2578125" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -960,13 +960,13 @@
     <entry file="file://$PROJECT_DIR$/notes/notes-ugly-code-1.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="114">
-            <caret line="4" column="95" lean-forward="true" selection-start-line="4" selection-start-column="95" selection-end-line="4" selection-end-column="95" />
+          <first_editor relative-caret-position="194">
+            <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
             <folding>
-              <marker date="1519342743933" expanded="true" signature="1568:1844" ph="{&quot;post code&quot;: &quot;85658&quot;...}" />
-              <marker date="1519342743933" expanded="true" signature="1671:1842" ph="[...]" />
-              <marker date="1519342743933" expanded="true" signature="1677:1838" ph="{&quot;place name&quot;: &quot;Marana&quot;...}" />
-              <marker date="1519342743933" expanded="true" signature="3652:3773" ph="..." />
+              <marker date="1519345618446" expanded="true" signature="1550:1826" ph="{&quot;post code&quot;: &quot;85658&quot;...}" />
+              <marker date="1519345618446" expanded="true" signature="1653:1824" ph="[...]" />
+              <marker date="1519345618446" expanded="true" signature="1659:1820" ph="{&quot;place name&quot;: &quot;Marana&quot;...}" />
+              <marker date="1519345618446" expanded="true" signature="3634:3755" ph="..." />
             </folding>
           </first_editor>
           <second_editor />
