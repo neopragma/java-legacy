@@ -99,6 +99,10 @@ try {
 . . .    
 ```
 
+This isn't the first time we've tweaked this code. The first thing we did was to [pull it out of the monolithic JobApplicant class](https://github.com/neopragma/java-legacy/blob/master/notes/notes-external.md) that we started with. Later, we [isolated the code](https://github.com/neopragma/java-legacy/blob/master/notes/notes-isolation-1.md) for unit test purposes, to streamline our build and make the tests more reliable, and [tweaked our build script](https://github.com/neopragma/java-legacy/blob/master/notes/notes-isolation-2.md) to enable running unit and integration tests separately. In another step, we [removed misleading comments](https://github.com/neopragma/java-legacy/blob/master/notes/notes-bad-comments.md) that made it harder to understand what the code was doing. We [added javadoc comments](https://github.com/neopragma/java-legacy/blob/master/notes/notes-api-documentation.md) and a _TODO_ comment to clarify the code and remind us to remediate it. Later, we [added a test case](https://github.com/neopragma/java-legacy/blob/master/notes/notes-missing-case.md) for a condition that wasn't covered, and in the process discovered a bug in the tests. Finally, in this step, we replaced the fragile implementation with a better one. 
+
+Why not just clean the whole thing up at the beginning? Remember the idea that we clean up little by little as we continue our normal work. Those initial steps could be completed without causing a halt in the work flow, and ultimately they set us up to make the final remediation of the _lookup()_ method a relatively trivial task that only took a couple of minutes. Imagine working with a real-world code base that has a couple of million lines of code and hundreds of examples of questionable design. Would it be reasonable to try and fix everything at once?
+
 ## Sample solution
 
 The sample solution is in package ```com.neopragma.legacy.round11```.
