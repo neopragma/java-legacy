@@ -1,6 +1,6 @@
 # Smell: Crufty code in city/state lookup
 
-[Back to top](notes.md) | [Next: Class members not organized](notes-organization.md)
+[Back to top](notes.md) | [Next: Separate concerns](notes-separate-concerns.md).
 
 The code we just looked at, in method ```lookup()``` in class ```CityStateLookupImpl```, is problematic. It's fragile, in that any change to the site at www.zip-codes.com will break it. It's clunky, in that it looks for substrings and increments an offset to try and locate the response data of interest. It's hard to understand, in that it's a series of hard-coded increments to bump through the response data. 
 
@@ -109,5 +109,5 @@ The sample solution is in package ```com.neopragma.legacy.round11```.
 
 ## Next smell
 
-The next smell is that class members are not organized in any particular way, making it harder for people to see what the application is doing. Let's see [Class members not organized](notes-organization.md).
+The Main class handles starting and stopping the application, collecting input values from the user, and controlling persistence. Let's see if we can tease apart these concerns and set the stage to support multiple user interfaces and programmatic interfaces. [Next: Separate concerns](notes-separate-concerns.md).
 
