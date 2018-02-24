@@ -238,8 +238,6 @@ Finally, the new JobApplicantSystem class provides a layer of abstraction betwee
     }
 ```
 
-
-
 ## Sample solution
 
 The sample solution is in package ```com.neopragma.legacy.round12```.
