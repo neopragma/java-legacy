@@ -2,41 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6932bd72-f40e-4484-8269-0f122efb8b3b" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/notes/notes-internationalization.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round13/Address.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round13/AddressImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round13/CityState.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round13/CityStateLookup.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round13/CityStateLookupException.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round13/CityStateLookupImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round13/CommandLineProcessor.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round13/Constants.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round13/InvalidSsnException.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round13/JobApplicant.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round13/JobApplicantImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round13/JobApplicantSystem.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round13/Main.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round13/Name.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round13/NameImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round13/NullAddress.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round13/NullJobApplicant.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round13/NullName.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round13/NullSsn.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round13/Persistence.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round13/PersistenceImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round13/Ssn.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round13/SsnImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round13/package-info.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/neopragma/legacy/round13/AddressIT.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/neopragma/legacy/round13/AddressTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/neopragma/legacy/round13/CommandLineProcessorTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/neopragma/legacy/round13/ConsoleHelper.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/neopragma/legacy/round13/JobApplicantSystemTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/neopragma/legacy/round13/JobApplicantTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/neopragma/legacy/round13/NameTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/neopragma/legacy/round13/SsnTest.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/notes/notes-separate-concerns.md" afterPath="$PROJECT_DIR$/notes/notes-separate-concerns.md" />
       <change beforePath="$PROJECT_DIR$/notes/notes.md" afterPath="$PROJECT_DIR$/notes/notes.md" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -49,18 +14,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="notes-internationalization.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/notes/notes-internationalization.md">
+      <file leaf-file-name="notes.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/notes/notes.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="57">
-                <caret line="2" column="107" lean-forward="false" selection-start-line="2" selection-start-column="107" selection-end-line="2" selection-end-column="107" />
-                <folding>
-                  <marker date="1519473935480" expanded="true" signature="4456:4534" ph="/**...*/" />
-                  <marker date="1519473935480" expanded="true" signature="4567:4630" ph="/**...*/" />
-                  <marker date="1519473935480" expanded="true" signature="4669:4790" ph="/**...*/" />
-                  <marker date="1519473935480" expanded="true" signature="4847:4969" ph="/**...*/" />
-                </folding>
+              <first_editor relative-caret-position="256">
+                <caret line="40" column="11" lean-forward="false" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="11" />
+                <folding />
               </first_editor>
               <second_editor />
             </state>
@@ -109,7 +69,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round11/CityStateLookupImpl.java" />
         <option value="$PROJECT_DIR$/notes/notes-organization.md" />
         <option value="$PROJECT_DIR$/notes/notes-ugly-code-1.md" />
-        <option value="$PROJECT_DIR$/notes/notes.md" />
         <option value="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round12/CityState.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/neopragma/legacy/round12/AddressIT.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/neopragma/legacy/round12/JobApplicantTest.java" />
@@ -138,6 +97,7 @@
         <option value="$PROJECT_DIR$/src/test/java/com/neopragma/legacy/round13/NameTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/neopragma/legacy/round13/NameImpl.java" />
         <option value="$PROJECT_DIR$/notes/notes-internationalization.md" />
+        <option value="$PROJECT_DIR$/notes/notes.md" />
       </list>
     </option>
   </component>
@@ -875,7 +835,7 @@
       <option name="presentableId" value="Default" />
       <updated>1519311009133</updated>
       <workItem from="1519311013356" duration="38766000" />
-      <workItem from="1519416084668" duration="16182000" />
+      <workItem from="1519416084668" duration="16270000" />
     </task>
     <servers />
   </component>
@@ -912,7 +872,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54948000" />
+    <option name="totallyTimeSpent" value="55036000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="710" extended-state="0" />
@@ -931,7 +891,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32994187" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13359375" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33515626" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1092,7 +1052,7 @@
     <entry file="file://$PROJECT_DIR$/notes/notes-internationalization.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="57">
+          <first_editor relative-caret-position="76">
             <caret line="2" column="107" lean-forward="false" selection-start-line="2" selection-start-column="107" selection-end-line="2" selection-end-column="107" />
             <folding>
               <marker date="1519473935480" expanded="true" signature="4456:4534" ph="/**...*/" />
@@ -1100,6 +1060,17 @@
               <marker date="1519473935480" expanded="true" signature="4669:4790" ph="/**...*/" />
               <marker date="1519473935480" expanded="true" signature="4847:4969" ph="/**...*/" />
             </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notes/notes.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="256">
+            <caret line="40" column="11" lean-forward="false" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="11" />
+            <folding />
           </first_editor>
           <second_editor />
         </state>

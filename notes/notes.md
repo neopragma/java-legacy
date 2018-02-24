@@ -36,4 +36,6 @@ Smell 16: Poor separation of concerns: Main class combines application managemen
 
 Smell 17: Repetitious code in methods setName and setSpanishName to avoid storing null values. (See [notes](notes-internationalization.md))
 
-Smell 18: Clumsy way to jam support for Spanish names into the application (method setSpanishName) instead of using Java's support for Object Oriented design and internationalization. (See [notes](notes-internationalization.md))
+Smell 18(a): Set the stage to split out English and Spanish name handling. (See [notes](notes-internationalization.md))
+
+Smell 18(b): Implementing internationalization support. (See [notes](notes-internationalization-2.md))
