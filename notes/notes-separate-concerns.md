@@ -1,6 +1,6 @@
 # Smell: Multiple concerns in Main class
 
-[Back to top](notes.md) | [Next: Repetitious code](notes-dry-1.md).
+[Back to top](notes.md) | [Next: Hard-coded internationalization](notes-internationalization.md).
 
 One of the [first things we did](https://github.com/neopragma/java-legacy/blob/master/notes/notes-main.md) was to extract the main processing loop out of the original monolithic JobApplicant class. With that code out of the way, we've focused on remediating other parts of the code. Now it's time to address code smells in the Main class. 
 
@@ -244,5 +244,5 @@ The sample solution is in package ```com.neopragma.legacy.round12```.
 
 ## Next smell
 
-There is near-duplicate code to handle English and Spanish applicant names. [Next: Repetitious code](notes-dry-1.md).
+There is near-duplicate code to handle English and Spanish applicant names. [Next: Hard-coded internationalization](notes-internationalization.md).
 
