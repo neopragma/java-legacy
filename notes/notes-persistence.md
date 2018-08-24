@@ -10,7 +10,7 @@ We'll pull the persistence logic out of ```JobApplicant``` and hide it behind an
 - More clarity about the responsibilities of different classes in the application
 - Easier to isolate code for automated checks
 
-We want the persistence mechanism to support three operations:
+We want the persistence mechanism to support these operations:
 
 - save
 - find by id

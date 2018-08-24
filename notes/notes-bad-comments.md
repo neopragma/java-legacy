@@ -23,7 +23,7 @@ Method ```lookup``` in class ```CityStateLookupImpl``` contains this code:
     . . .
 ```
 
-Note the comment that reads, "Save the returned city and state if content length is greater than zero." Later, the code reads from the returned entity without checking the content length. This is an example of the kind of problem we see when people depends on source comments to describe the functionality of the code. Often, when people change the code they neglect to change the comments. The solution is to delete the comments.
+Note the comment that reads, "Save the returned city and state if content length is greater than zero." Later, the code reads from the returned entity without checking the content length. This is an example of the kind of problem we see when people depend on source comments to describe the functionality of the code. Often, when people change the code they neglect to change the comments. The solution is to delete the comments.
 
 ## Sample solution
 
